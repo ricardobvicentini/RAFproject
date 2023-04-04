@@ -105,6 +105,11 @@ body {
     border-radius: 10px;
  }
 
+ div.container {
+   display: flex;
+   align-items: center;
+ } /*Classe para colocar texto ao lado da image.*/
+
  main p {
     text-align: justify;
     font-family: var(--fonte-padrão);
