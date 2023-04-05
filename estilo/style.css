@@ -106,10 +106,9 @@ body {
  }
 
  div.container {
-   display: flex;
+   display: inline-block;
    align-items: center;
- } /*Classe para colocar texto ao lado da image.*/
-
+ }
  
  main p {
     text-align: justify;
