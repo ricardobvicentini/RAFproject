@@ -13,7 +13,7 @@
     --cor1: #457b9d;
     --cor2: #a8dadc;
     --cor3: #f1faee;
-    --cor4: #a1202b;
+    --cor4: #b82f3a;
 
     --fonte-padrão: Arial, sans-serif;
     --fonte-destaque: 'Anton', cursive;
@@ -74,52 +74,6 @@ body {
     border-radius: 10px;
  }
 
- div.container {
-   display: inline-block;
-   width: 100%;
- }
-
- #c1 {
-   height: 363px;
-   width: 500px;
-   background-image: url(/imagens/supermarine-spitfire-m.jpg);
-   border: 2px solid black;
-   border-radius: 10px;
-   box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.274);
- }
-
- #c2 {
-   height: 400px;
-   width: 450px;
-   margin-left: 10px;
-   margin-right: -20px;
-   background-position: center;
-   border: 2px solid black;
-   border-radius: 10px;
-   box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.274);
- }
-
- #c3 {
-   height: 400px;
-   width: 450px;
-   background-position: center;
-   border: 2px solid black;
-   border-radius: 10px;
-   box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.274);
- }
-
- #c4 {
-   height: 321px;
-   width: 500px;
-   margin-top: 20px;
-   background-image: url(/imagens/hawker-hurricane-m.jpg);
-   margin-left: 10px;
-   margin-right: -20px;
-   border: 2px solid black;
-   border-radius: 10px;
-   box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.274);
- }
-
  main {
     min-width: 300px;
     max-width: 1000px;
@@ -136,12 +90,12 @@ body {
     font-family: var(--fonte-army);
     font-weight: normal;
     font-size: 4em;
+    text-align: center;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
-    padding: 10px;
  }
 
  main h2 {
-    background-image: linear-gradient(to right, var(--cor1), var(--cor2));
+    background-image: linear-gradient(to left, var(--cor1), var(--cor2));
     color: var(--cor4);
     font-family: var(--fonte-army);
     font-weight: normal;
@@ -156,12 +110,40 @@ body {
     text-align: justify;
     font-family: var(--fonte-padrão);
     font-size: 1em;
+    font-weight: bold;
     line-height: 1.5em;
     text-indent: 30px;
     padding: 10px;
  }
 
+ #container1 {
+   display: flex;
+   flex-direction: column;
+ }
 
+.cd1 {
+   display: flex;
+   flex-direction: row;
+}
+
+.c1 {
+   margin-top: 10px;
+   margin-bottom: 5px;
+}
+
+ #container2 {
+   display: flex;
+   flex-direction: column;
+ }
+
+ .cd2 {
+   display: flex;
+   flex-direction: row;
+}
+
+.c4 {
+   margin-top: 10px;
+}
  aside {
     background-color: var(--cor2);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
