@@ -27,7 +27,11 @@
 
 body {
     font-family: var(--fonte-padrão);
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor0));
+    background-image: url(imagens2/nuvens.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /*Efeito parallax com bg-size: cover e bg-attch: fixed*/
 }
 
 a.externo::after {
@@ -123,13 +127,13 @@ a.externo::after {
 
  .container1 {
    display: flex;
-   justify-content: center;
  }
 
  .b1 {
    background-image: url(imagens2/hawker-hurricane-m.jpg); /*Nova pasta com as imagens do aviões (imagens2) criada dentro da pasta estilo*/
    background-size: contain; /*Para a imagem ficar contida no bloco*/
    background-repeat: no-repeat;
+   background-position: center center;
    height: auto;
    width: 500px;
    border-radius: 10px;
@@ -155,6 +159,7 @@ a.externo::after {
    background-image: url(imagens2/supermarine-spitfire-m.jpg); /*Nova pasta com as imagens do aviões (imagens2) criada dentro da pasta estilo*/
    background-size: contain;
    background-repeat: no-repeat;
+   background-position: center center;
    height: auto;
    width: 500px;
    border-radius: 10px;
