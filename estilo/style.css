@@ -43,13 +43,15 @@ a.externo::after {
  header h1 {
     font-family: var(--fonte-destaque);
     font-size: 8vw;
+    color: rgb(36, 34, 34);
     text-decoration: underline;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
+    text-shadow: 2px 2px 2px rgba(12, 12, 12, 0.288);
  }
 
  header p {
     font-family: var(--fonte-destaque);
     font-size: 5vw;
+    color: rgb(36, 34, 34);
     padding-bottom: 10px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
  }
@@ -61,11 +63,10 @@ a.externo::after {
  }
 
  nav > a {
-    font-family: var(--fonte-padrão);
     color: var(--cor3);
-    font-family: var(--fonte-padrão);
-    font-weight: bold;
-    font-size: 1em;
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+    font-size: 2vw;
     padding: 10px;
     text-decoration: none;
     transition-duration: 0.5s;
@@ -113,7 +114,7 @@ a.externo::after {
  main p {
     text-align: justify;
     font-family: var(--fonte-padrão);
-    font-size: 1.4vw;
+    font-size: 1.3vw;
     font-weight: bold;
     line-height: 1.5em;
     text-indent: 30px;
@@ -127,14 +128,16 @@ a.externo::after {
 
  .b1 {
    background-image: url(imagens2/hawker-hurricane-m.jpg); /*Nova pasta com as imagens do aviões (imagens2) criada dentro da pasta estilo*/
-   height: 321px;
+   background-size: contain; /*Para a imagem ficar contida no bloco*/
+   background-repeat: no-repeat;
+   height: auto;
    width: 500px;
    border-radius: 10px;
    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.315);
  }
 
  .b2 {
-   height: 321px;
+   height: auto;
    width: 500px;
  }
 
@@ -143,14 +146,16 @@ a.externo::after {
  }
 
  .b3 {
-   height: 363px;
+   height: auto;
    width: 500px;
    padding-top: 15px;
  }
 
  .b4 {
    background-image: url(imagens2/supermarine-spitfire-m.jpg); /*Nova pasta com as imagens do aviões (imagens2) criada dentro da pasta estilo*/
-   height: 363px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   height: auto;
    width: 500px;
    border-radius: 10px;
    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.315);
