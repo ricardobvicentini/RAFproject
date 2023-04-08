@@ -42,14 +42,14 @@ a.externo::after {
 
  header h1 {
     font-family: var(--fonte-destaque);
-    font-size: 3em;
+    font-size: 8vw;
     text-decoration: underline;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
  }
 
  header p {
     font-family: var(--fonte-destaque);
-    font-size: 2em;
+    font-size: 5vw;
     padding-bottom: 10px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
  }
@@ -93,7 +93,7 @@ a.externo::after {
     color: var(--cor0);
     font-family: var(--fonte-army);
     font-weight: normal;
-    font-size: 4em;
+    font-size: 8vw;
     text-align: center;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
  }
@@ -103,7 +103,7 @@ a.externo::after {
     color: var(--cor4);
     font-family: var(--fonte-army);
     font-weight: normal;
-    font-size: 3em;
+    font-size: 5vw;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
     padding: 10px;
     margin: 10px;
@@ -113,7 +113,7 @@ a.externo::after {
  main p {
     text-align: justify;
     font-family: var(--fonte-padrão);
-    font-size: 1em;
+    font-size: 1.4vw;
     font-weight: bold;
     line-height: 1.5em;
     text-indent: 30px;
@@ -145,6 +145,7 @@ a.externo::after {
  .b3 {
    height: 363px;
    width: 500px;
+   padding-top: 15px;
  }
 
  .b4 {
@@ -167,12 +168,12 @@ a.externo::after {
     color: var(--cor0);
     font-family: var(--fonte-army);
     font-weight: normal;
-    font-size: 2.5em;
+    font-size: 5vw;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
 }
  aside p {
     font-family: var(--fonte-padrão);
-    font-size: 1.5em;
+    font-size: 2vw;
     font-weight: normal;
     line-height: 1.5em;
     text-indent: 30px;
@@ -181,7 +182,7 @@ a.externo::after {
 
  aside ul {
     font-family: var(--fonte-padrão);
-    font-size: 1.5em;
+    font-size: 2vw;
     font-weight: normal;
     list-style-position: inside;
     list-style-type: '\2B55';
@@ -200,7 +201,7 @@ a.externo::after {
     background-color: var(--cor2);
     color: var(--cor0);
     font-family: var(--fonte-army);
-    font-size: 1.5em;
+    font-size: 2vw;
     font-weight: normal;
     text-align: center;
     padding: 8px;
