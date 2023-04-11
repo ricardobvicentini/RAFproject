@@ -127,9 +127,11 @@ a.externo::after {
  }
 
  .b1 {
+   background-color: rgb(212, 226, 251);
    background-image: url(imagens2/hawker-hurricane-m.jpg); /*Nova pasta com as imagens do aviões (imagens2) criada dentro da pasta estilo*/
    background-size: contain; /*Para a imagem ficar contida no bloco*/
    background-repeat: no-repeat;
+   background-position: center;
    height: auto;
    width: 500px;
    border-radius: 10px;
@@ -152,9 +154,11 @@ a.externo::after {
  }
 
  .b4 {
+   background-color: rgb(149, 199, 226);
    background-image: url(imagens2/supermarine-spitfire-m.jpg); /*Nova pasta com as imagens do aviões (imagens2) criada dentro da pasta estilo*/
    background-size: contain;
    background-repeat: no-repeat;
+   background-position: center;
    height: auto;
    width: 500px;
    border-radius: 10px;
