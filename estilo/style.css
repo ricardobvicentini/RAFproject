@@ -27,7 +27,7 @@
 
 body {
     font-family: var(--fonte-padrão);
-    background-image: url(imagens2/nuvens.jpg);
+    background-image: url(nuvens.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -127,18 +127,26 @@ a.externo::after {
 
  .container1 {
    display: flex;
+   flex-direction: row;
  }
 
+ .b1 img {
+   height: auto;
+   width: auto;
+   border-radius: 10px;
+ }
+
+ /*Antigas declarações
  .b1 {
    background-color: rgb(212, 226, 251);
-   background-image: url(imagens2/hawker-hurricane-m.jpg); /*Nova pasta com as imagens do aviões (imagens2) criada dentro da pasta estilo*/
-   background-size: contain; /*Para a imagem ficar contida no bloco*/
+   background-image: url(imagens2/hawker-hurricane-m.jpg); Nova pasta com as imagens do aviões (imagens2) criada dentro da pasta estilo
+   background-size: contain; Para a imagem ficar contida no bloco
    background-repeat: no-repeat;
    height: auto;
    width: 500px;
    border-radius: 10px;
    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.315);
- }
+ } */
 
  .b2 {
    height: auto;
@@ -147,6 +155,7 @@ a.externo::after {
 
  .container2 {
    display: flex;
+   flex-direction: row;
  }
 
  .b3 {
@@ -155,16 +164,23 @@ a.externo::after {
    padding-top: 15px;
  }
 
+ .b4 img {
+   height: auto;
+   width: auto;
+   border-radius: 10px;
+ }
+
+ /* Antigas declarações
  .b4 {
    background-color: rgb(149, 199, 226);
-   background-image: url(imagens2/supermarine-spitfire-m.jpg); /*Nova pasta com as imagens do aviões (imagens2) criada dentro da pasta estilo*/
+   background-image: url(imagens2/supermarine-spitfire-m.jpg); Nova pasta com as imagens do aviões (imagens2) criada dentro da pasta estilo
    background-size: contain;
    background-repeat: no-repeat;
    height: auto;
    width: 500px;
    border-radius: 10px;
    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.315);
- }
+ } */
 
  aside {
     background-color: var(--cor2);
