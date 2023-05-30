@@ -23,6 +23,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body {
@@ -41,6 +42,11 @@ a.externo::after {
  header {
     background-image: linear-gradient(to bottom, var(--cor0), var(--cor3));
     text-align: center;   
+ }
+
+ header img {
+   width: 50%;
+   height: auto;
  }
 
 
@@ -132,7 +138,7 @@ a.externo::after {
 
  .b1 img {
    height: auto;
-   width: auto;
+   width: 100%;
    border-radius: 10px;
  }
 
@@ -166,7 +172,7 @@ a.externo::after {
 
  .b4 img {
    height: auto;
-   width: auto;
+   width: 100%;
    border-radius: 10px;
  }
 
